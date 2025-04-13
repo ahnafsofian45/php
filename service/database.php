@@ -6,7 +6,7 @@ $database_name = "mieme";
 $port = 3307;        // Pastikan port sesuai dengan server MySQL
 
 // Membuat koneksi
-$db = mysqli_connect($hostname, $username, $password, $database_name, $port);
+$db = mysqli_connect($hostname, $username, $password, $database_name);
 
 // Cek koneksi
 if (!$db) {
